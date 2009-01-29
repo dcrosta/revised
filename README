@@ -1,0 +1,5 @@
+Revised is custom model superclass for use with Django models that adds
+automatic versioning to your models. Simply used revised.RevisedModel in
+place of django.db.models.Model as your model superclass, and watch as
+each .save() creates a backup of the old version for diffing, reverting,
+or viewing.
